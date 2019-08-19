@@ -15,6 +15,11 @@ export const Title = styled.Text`
   margin-top: 30px;
 `;
 
+export const LogoutButton = styled(Button)`
+  background: #f64c75;
+  margin-top: 10px;
+`;
+
 export const Form = styled.ScrollView.attrs({
   contentContainerStyle: { padding: 30 },
   showsVerticalScrollIndicator: false,
