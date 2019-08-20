@@ -60,6 +60,7 @@ export default (isSigned = false) =>
             Profile,
           },
           {
+            resetOnBlur: true,
             tabBarOptions: {
               activeTintColor: '#FFF',
               keyboardHidesTabBar: true, // o teclado fica encima do "menu"
